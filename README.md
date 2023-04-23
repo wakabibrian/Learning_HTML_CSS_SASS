@@ -1,2 +1,5 @@
 # Learning_HTML_CSS_SASS
-Learning All  about HTML, CSS and SASS
+
+## HTML Fundamentals
+
+- Lesson 1: Introduction to HTML
