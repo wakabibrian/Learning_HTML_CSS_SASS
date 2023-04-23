@@ -20,5 +20,30 @@
    - title: title of the web page (has closing tag)
 4. body element: This contains all the elements that are visible on the web page.
    Examples of body elements:
-   - h1: level 1 of the heading of text (has closing tag)
-     Other levels include; h2, h3, h4, h5, h6
+   - headings
+   - Other Text Elements
+
+## Text Elements
+
+1. headings: Used to breakdown big blocks of code into more logical sections and add a title to each of the sections.
+   There are 6 headings (according to hierrachy): h1 - h6 (Have both opening and closing tags)
+   h1 - Primary heading
+   h2 - secondary heading
+   h3 - h6 - Tertiary headings
+   NOTE: Each page should have only 1 h1 heading (1 primary heading); it's of good practice
+2. Paragraph: p element; used to mockup bigger blocks of text (has closing tag)
+
+## Adding Comments
+
+A comment is a way of writing code that will not be visible in the browser.
+Helps in writing comments about our code
+
+3. bold and italic text:
+   For bold: b - bold (Use of b is not a good practice - older html element)
+   From html 5 we use strong element instead of b
+
+   - b doesnt have semantic meaning (Without a specific meaning)
+   - Strong means that it is an important text
+     For italic: i - italic (Use of i is not a good practice - older html element)
+     From html 5 we use em element instead of i
+     - em - emphasize
