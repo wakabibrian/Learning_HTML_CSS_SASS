@@ -47,3 +47,10 @@ Helps in writing comments about our code
      For italic: i - italic (Use of i is not a good practice - older html element)
      From html 5 we use em element instead of i
      - em - emphasize
+
+4. Lists with bullet points and numbers
+   ol element - ordered lists creating numbered lists
+   ul element - unordered lists creating bullet points lists
+   li element - li - list item; creates a list inside ol or ul
+
+NOTE: Elements inside the parent elements are the child elements
