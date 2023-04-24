@@ -33,7 +33,7 @@
    NOTE: Each page should have only 1 h1 heading (1 primary heading); it's of good practice
 2. Paragraph: p element; used to mockup bigger blocks of text (has closing tag)
 
-## Adding Comments
+##### Adding Comments
 
 A comment is a way of writing code that will not be visible in the browser.
 Helps in writing comments about our code
