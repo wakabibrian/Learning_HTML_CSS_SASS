@@ -54,3 +54,18 @@ Helps in writing comments about our code
    li element - li - list item; creates a list inside ol or ul
 
 NOTE: Elements inside the parent elements are the child elements
+
+## Images and Attributes
+
+img element: For adding images (No closing tag)
+We use attributes
+Attributes are pieces of data which we can use to describe elements
+e.g for images
+
+- src attribute: Describing the source from which the browser should read
+- alt attribute: Alternative text; text that should describe what the image is about
+  alt helps search engines to know what is in the image
+  alt helps blind people to use our website (Screen reader reads the alternative text)
+  alt also displays the text incase the image is not found
+- width attribute: specifies the width
+- height attribute: specifies the height
