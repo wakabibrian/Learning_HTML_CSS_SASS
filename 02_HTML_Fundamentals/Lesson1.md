@@ -85,3 +85,16 @@ Links can be in two categories
    - we use the href attribute to provide the link we are pointing to
    - target attribute: specifies whether we want to open the page in a new tab (value: \_blank). By default the target attribute has value: \_self (opens from the same page)
    - To create a link which doesnt go anywhere, you use the # value for the href attribute
+
+## Structuring our Page
+
+Structuring the page (html 5 elements) help in grouping the html code in a logical way:
+Elements used in structuring the page:
+
+1. nav element: Page navigation; contains the navigation elements (groups the elements together)
+2. header element: groups the heading and navigation of the page: Top part of a web document
+3. article element: Body of the blog post
+   - Inside the article we can also group the top part as heading
+4. footer element: Specifies the footer (at the end of the page)
+
+- Structuring (grouping) the page helps in styling using css and Semantic HTML
