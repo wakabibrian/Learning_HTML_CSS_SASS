@@ -73,3 +73,15 @@ e.g for images
 
 Attributes for html element: lang; specifies the language of the document e.g en
 for English, de for Germany
+
+## Hyperlinks
+
+Links (link between pages): Enables the internet to be a world wide web
+Links can be in two categories
+
+1. Link to other pages within our website (e.g home to blog page)
+2. Link to outside of our webside (e.g my page to udemy.com)
+   To create a link we use a element (anchor) (Has closing tag)
+   - we use the href attribute to provide the link we are pointing to
+   - target attribute: specifies whether we want to open the page in a new tab (value: \_blank). By default the target attribute has value: \_self (opens from the same page)
+   - To create a link which doesnt go anywhere, you use the # value for the href attribute
