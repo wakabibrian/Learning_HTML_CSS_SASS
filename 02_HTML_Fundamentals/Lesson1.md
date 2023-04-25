@@ -18,6 +18,7 @@
 3. head element: This is for elements that are not visible/not rendered in the browswer window.
    Examples of head elements:
    - title: title of the web page (has closing tag)
+   - meta: meta data (data about the data) (no closing tag): has attributes like charset - UTF-8 (simple characters used in the English language)
 4. body element: This contains all the elements that are visible on the web page.
    Examples of body elements:
    - headings
@@ -69,3 +70,6 @@ e.g for images
   alt also displays the text incase the image is not found
 - width attribute: specifies the width
 - height attribute: specifies the height
+
+Attributes for html element: lang; specifies the language of the document e.g en
+for English, de for Germany
