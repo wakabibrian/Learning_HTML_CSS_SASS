@@ -98,3 +98,14 @@ Elements used in structuring the page:
 4. footer element: Specifies the footer (at the end of the page)
 
 - Structuring (grouping) the page helps in styling using css and Semantic HTML
+
+## Semantic HTML
+
+Semantic means that some elements have a meaning or a purpose attached to them.
+Always think about what the element does and means not only what it looks like.
+Not all elements are semantic e.g b and i (use strong or em with meaning)
+div element also has no meaning (like nav)
+Why give our html meaning?
+
+- Search engine optimization
+- Important for accessibility (people who rely on screen readers)
