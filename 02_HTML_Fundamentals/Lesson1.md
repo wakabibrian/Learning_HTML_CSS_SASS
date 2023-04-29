@@ -96,6 +96,7 @@ Elements used in structuring the page:
 3. article element: Body of the blog post
    - Inside the article we can also group the top part as heading
 4. footer element: Specifies the footer (at the end of the page)
+5. aside element: Secondary information that usually complements the information in the main page
 
 - Structuring (grouping) the page helps in styling using css and Semantic HTML
 
