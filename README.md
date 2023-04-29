@@ -2,5 +2,10 @@
 
 ## HTML Fundamentals
 
-- Lesson 1: Introduction to HTML
+- Introduction to HTML
   More info [here](02_HTML_Fundamentals/Lesson1.md)
+
+## CSS Fundamentals
+
+- Introduction to CSS
+  More info [here](03_CSS_Fundamentals/Lesson2.md)
