@@ -5,6 +5,9 @@ CSS Describes the visual style and presenatation of the content written in HTML
 CSS consists of lots of properties that are used to format the content; eg properties about the font,text, spacing, layout etc
 CSS has a selector, Declaration/Style (Property and value)
 
+css rule
+[label](Lesson2.md)
+
 ## Inline, Internal and External CSS
 
 There are 3 places where we write our css;
@@ -13,19 +16,19 @@ There are 3 places where we write our css;
 -   Internal CSS
 -   External CSS
 
-## Inline CSS
+### Inline CSS
 
 This is a way of writing the CSS inside of the elements using the style attribute
 
 -   Inline styles should never be used (No separation of concerns)
 
-## Internal CSS
+### Internal CSS
 
 This is a way of writing the CSS inside the head ealement, using the style element
 
 -   This is incase of alot of CSS code (No separation of CSS code from HTML)
 
-## External CSS
+### External CSS
 
 Most prefered
 
@@ -34,3 +37,7 @@ Most prefered
 -   The link tag has the rel, and href properties (attributies)
     -   rel property specifies that it's a stylesheet
     -   href property specifies the path
+
+## Styling text with css (6 Properties)
+
+# css rules
