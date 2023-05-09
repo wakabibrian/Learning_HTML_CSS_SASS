@@ -5,8 +5,10 @@ CSS Describes the visual style and presenatation of the content written in HTML
 CSS consists of lots of properties that are used to format the content; eg properties about the font,text, spacing, layout etc
 CSS has a selector, Declaration/Style (Property and value)
 
-css rule
-![CSS Rule](../Resources/edojfcbz6sr7j0b2l6v1.webp)
+## css rule
+
+![CSS Rule]()
+<img src="../Resources/css_rule.webp" alt="CSS Rule" width="50px" >
 
 ## Inline, Internal and External CSS
 
