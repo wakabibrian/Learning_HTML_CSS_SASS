@@ -47,3 +47,20 @@ _text-transfer_ - Turns the text uppercase, or, lowercase or capitalised etc
 _font-style_ - turns the text italic etc
 _line-height_ - specifies space between lines (no units). By default, line-height is 1
 _text_lign_ - Aligns the text left, right or center (with reference to the parent element)
+
+## Combining selectors
+
+Combine selectors with repeated properties and values
+
+### List selector
+
+-   Create a list of selectors and apply the repeated properties
+-   We use commas to create a list of selectors e,g h1, h2, h3, h4
+
+### Descendant selector
+
+e.g footer p - selects all the p elements that are inside the footer element
+
+-   To avoid errors (confusion) with other elements, you can make a descendant inside another descendant e. article header p
+
+## Classes and Ids
