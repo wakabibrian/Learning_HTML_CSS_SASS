@@ -41,4 +41,9 @@ Most prefered
 
 ## Styling text with css (6 Properties)
 
-# css rules
+_font-size_ - specifies the size of the text. By default, font-size is 16px
+_font-family_ - specifies different fonts for the text
+_text-transfer_ - Turns the text uppercase, or, lowercase or capitalised etc
+_font-style_ - turns the text italic etc
+_line-height_ - specifies space between lines (no units). By default, line-height is 1
+_text_lign_ - Aligns the text left, right or center (with reference to the parent element)
