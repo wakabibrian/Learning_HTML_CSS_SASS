@@ -6,7 +6,7 @@ CSS consists of lots of properties that are used to format the content; eg prope
 CSS has a selector, Declaration/Style (Property and value)
 
 css rule
-[label](Lesson2.md)
+![CSS Rule](../Resources/edojfcbz6sr7j0b2l6v1.webp)
 
 ## Inline, Internal and External CSS
 
