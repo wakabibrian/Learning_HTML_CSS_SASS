@@ -7,7 +7,7 @@ CSS has a selector, Declaration/Style (Property and value)
 
 ## css rule
 
-<img src="../Resources/css_rule.webp" alt="CSS Rule" width="300px" >
+<img src="../Resources/css_rule.webp" alt="CSS Rule" width="500px" >
 
 ## Inline, Internal and External CSS
 
