@@ -63,4 +63,12 @@ e.g footer p - selects all the p elements that are inside the footer element
 
 -   To avoid errors (confusion) with other elements, you can make a descendant inside another descendant e. article header p
 
-## Classes and Ids
+## Class and ID Selectors
+
+Instead of descendant selectors, its better to give elements names and use their names to select them in css
+
+To select elements;
+id - use #
+class - use .
+
+-   We are not allowed to repeat id names
