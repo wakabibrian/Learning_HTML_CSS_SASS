@@ -106,3 +106,12 @@ We always use a color picker to generate code.
 -   These are a special kind of colors.
 -   When colors in all the 3 channels are the same, we get the grey color. e.g rgb(0,0,0) or #000, rgb(69, 69, 69) or #444
 -   There are 256 grey colors to choose from.
+
+### Color CSS Properties;
+
+_color_: For text
+_background-color_: For background
+_border_: For borders around an element e.g border: 1px solid #000
+border is a special kind of property because we can use one property to define 3 different properties
+
+For colors we can also use the predefined colors names e.g red or blue etc
