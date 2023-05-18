@@ -78,6 +78,7 @@ class - use .
 ## Other css styles
 
 _list-style_ - Removes bullets on lists
+_text-decoration_ - Removes underline
 
 ## Note
 
@@ -127,3 +128,13 @@ other examples of pseudo-classes;
 -   _li:first-class_: selects the first element of the list
 -   _li:last-child_: last child inside of its parent container
 -   _li:nth-child(2, odd, even)_: targets a specific child e.g second
+
+## Styling Hyperlinks
+
+Here we use Pseudo Classes to help target different states of the links.
+_a:link_: Targets the anchor elements with an href attribute
+_a:visited_: Targets the anchor elements which are visited before. In practice, always use the same color as the link pc
+_a:hover_: targets the hover state of a link
+_a:active_: targets the active state of a link
+
+Always defined in the above order

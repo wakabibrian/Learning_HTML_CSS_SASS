@@ -86,3 +86,28 @@ li:last-child {
 /* li:nth-child(2) {
     color: red;
 } */
+
+/* Misconception: This wont work because p is not the first child of article */
+article p:first-child {
+    color: red;
+}
+
+/* Styling Links */
+a:link {
+    color: #1098ad;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #1098ad;
+}
+
+a:hover {
+    color: orangered;
+    font-weight: bold;
+    text-decoration: underline orangered;
+}
+
+a:active {
+    font-style: italic;
+}
