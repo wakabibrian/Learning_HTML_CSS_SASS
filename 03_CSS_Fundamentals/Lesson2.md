@@ -115,3 +115,15 @@ _border_: For borders around an element e.g border: 1px solid #000
 border is a special kind of property because we can use one property to define 3 different properties
 
 For colors we can also use the predefined colors names e.g red or blue etc
+
+## Pseudo-classes
+
+A CSS pseudo-class is a keyword added to a selector that specifies a special state of the selected element(s). For example, the pseudo-class :hover can be used to select a button when a user’s pointer hovers over the button and this selected button can then be styled
+
+-   You use : for a pseudo-class.
+
+other examples of pseudo-classes;
+
+-   _li:first-class_: selects the first element of the list
+-   _li:last-child_: last child inside of its parent container
+-   _li:nth-child(2, odd, even)_: targets a specific child e.g second
