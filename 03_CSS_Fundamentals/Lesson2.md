@@ -84,3 +84,25 @@ _list-style_ - Removes bullets on lists
 In the real world we don't use ids. We only use classes because by using classes we are prepared for the future
 Just incase we want to add another related item in the future, we can easily style it with the same css style.
 Making the code ready for potential changes
+
+## Working With Colors
+
+**Ways of representing colors**
+The RGB Model: Here every color can be represented by a combination of Red, Green and Blue colors.
+We give each of the above 3 colors any value between 0 and 255 hence giving a total of 16.8 million colors
+
+Two Ways of representing colors using the RGB Model;
+
+1. RGB/RGBA Notation: e.g rgb(0, 255, 255), rgb(244, 179, 63),rgba(0, 255, 255, 0.3) (RGB with transparency (alpha))
+2. HexaDecimal Notation (More used in css): Here we use a scale from 0 to ff. ff is the same as 255 in hexadecimal scale.
+   e.g #00ffff. Shorthand is always used when all the colors are identical pairs #0ff
+
+We always use a color picker to generate code.
+
+-   In practice we usually use the hexadecimal notation and when we want transparency, we use the rgba notation
+
+### Shades of Greys
+
+-   These are a special kind of colors.
+-   When colors in all the 3 channels are the same, we get the grey color. e.g rgb(0,0,0) or #000, rgb(69, 69, 69) or #444
+-   There are 256 grey colors to choose from.
