@@ -1,7 +1,7 @@
 # Lesson 2: Introduction to CSS
 
 CSS - Cascading Style Sheets
-CSS Describes the visual style and presenatation of the content written in HTML
+CSS Describes the visual style and presentation of the content written in HTML
 CSS consists of lots of properties that are used to format the content; eg properties about the font,text, spacing, layout etc
 CSS has a selector, Declaration/Style (Property and value)
 
@@ -31,7 +31,7 @@ This is a way of writing the CSS inside the head ealement, using the style eleme
 
 ### External CSS
 
-Most prefered
+Most preferred
 
 -   You use a separate css file (eg. style.css)
 -   We link the css file to html using the _link_ element, in the head element
@@ -46,7 +46,8 @@ _font-family_ - specifies different fonts for the text
 _text-transfer_ - Turns the text uppercase, or, lowercase or capitalised etc
 _font-style_ - turns the text italic etc
 _line-height_ - specifies space between lines (no units). By default, line-height is 1
-_text_lign_ - Aligns the text left, right or center (with reference to the parent element)
+_text-align_ - Aligns the text left, right or center (with reference to the parent element)
+_font-weight_ - Makes the text bold
 
 ## Combining selectors
 
@@ -71,4 +72,15 @@ To select elements;
 id - use #
 class - use .
 
--   We are not allowed to repeat id names
+-   We are not allowed to repeat id names (We can only use each id name only once)
+-   If we need to reuse a name multiple times, then we have to use classes
+
+## Other css styles
+
+_list-style_ - Removes bullets on lists
+
+## Note
+
+In the real world we don't use ids. We only use classes because by using classes we are prepared for the future
+Just incase we want to add another related item in the future, we can easily style it with the same css style.
+Making the code ready for potential changes
