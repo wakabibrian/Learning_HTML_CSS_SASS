@@ -198,3 +198,21 @@ Final element width = left-border + left-padding + width + right-padding + right
 Final element height = top-border + top-padding + height + bottom-padding + bottom-border
 
 -   We can specify all the above using css properties
+
+## Using Margins and Paddings
+
+Styles used;
+
+-   padding
+-   padding-left
+-   padding-right
+-   padding-top
+-   padding-bottom
+-   (Shorthand): padding:top&bottom left&right
+-   margin
+-   margin-left
+-   margin-right
+-   margin-top
+-   margin-bottom
+
+Global reset: \* { margin: 0; padding: 0;}
