@@ -138,3 +138,11 @@ _a:hover_: targets the hover state of a link
 _a:active_: targets the active state of a link
 
 Always defined in the above order
+
+## Using Chrome DevTools
+
+-   Open dev tools
+-   Go to elements tab to inspect the different elements
+-   Go to style tabs to see the different styles applied to elements
+-   You can apply styles from devtools for testing purposes only
+-   We can fake that the link is being hovered by clicking on the :hov and checking the :hov checkbox, and active etc
