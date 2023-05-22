@@ -146,3 +146,24 @@ Always defined in the above order
 -   Go to style tabs to see the different styles applied to elements
 -   You can apply styles from devtools for testing purposes only
 -   We can fake that the link is being hovered by clicking on the :hov and checking the :hov checkbox, and active etc
+
+## CSS Theory #1: Conflicts Between Selectors
+
+-   Conflicting when there are multiple selectors selecting the same element e.g by using id, class, element selector e.c
+-   Which of the rule applies... all of them apply
+
+### Resolving Conflicting Declarations (Selector specificity)
+
+We have consider according to priority; Hightest to Lowest priority
+If there are multiple of the same selector (same hierarchy, same priority), then it is the last that is applied;
+
+-   5. Declarations marked with !important keyword (Highest priority)
+-   4. Inline styles (Style attribute in the HTML)
+-   3. Id (#) selector
+-   2. Class (.) or Pseudo Class (:) selector
+-   1. Element selector (p, div, li etc)
+-   0. Universal (\*) selector (Lowest priority)
+
+!important keyword should only be used as a last resort
+
+-   Always hover on the selector in the css code to know the specificity

@@ -111,3 +111,18 @@ a:hover {
 a:active {
     font-style: italic;
 }
+
+/* Resolving Conflicts */
+#copy-right {
+    color: red;
+}
+.copy-right {
+    color: blue;
+}
+.text {
+    color: yellow;
+}
+
+footer p {
+    color: green;
+}
