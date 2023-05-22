@@ -177,3 +177,10 @@ If there are multiple of the same selector (same hierarchy, same priority), then
 -   Only values about text get inherited e.g font-family,font-size, font-weight,font-style,color, line-height, letter-spacing, text-align, text-transform, text-shadow, list-style etc
 -   An inherited style is easily overridden by any rule which has a value for that same property.
 -   Universal selector (\*) selects all elements
+
+## CSS Theory #3: The CSS Box Model
+
+The Box Model explains how elements are displayed on a web page and how they are sized
+
+-   Each of the content e.g text, image etc can be seen as a rectangular box with a border, space inside and outside
+    <img src="resources/boxmodel.png" alt="css box model">
