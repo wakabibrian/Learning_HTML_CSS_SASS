@@ -180,7 +180,21 @@ If there are multiple of the same selector (same hierarchy, same priority), then
 
 ## CSS Theory #3: The CSS Box Model
 
+<img src="../Resources/boxmodel.png" alt="css box model" width="500px">
+
 The Box Model explains how elements are displayed on a web page and how they are sized
 
 -   Each of the content e.g text, image etc can be seen as a rectangular box with a border, space inside and outside
-    <img src="../Resources/boxmodel.png" alt="css box model" width="500px">
+-   Border: A line around the element, still inside of the element.
+-   Padding: Invisible space around the content, inside of the element.
+-   Margin: Space outside of the element, between elements
+-   Content, padding and the border are the visible part of the element
+-   All the above are optional
+-   Fill area (Content, padding, border): Area that gets filled with background-color or background image
+
+### Element Height and Width Calculation
+
+Final element width = left-border + left-padding + width + right-padding + right-border
+Final element height = top-border + top-padding + height + bottom-padding + bottom-border
+
+-   We can specify all the above using css properties
