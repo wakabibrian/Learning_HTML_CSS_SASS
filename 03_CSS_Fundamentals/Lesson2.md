@@ -167,3 +167,13 @@ If there are multiple of the same selector (same hierarchy, same priority), then
 !important keyword should only be used as a last resort
 
 -   Always hover on the selector in the css code to know the specificity
+-   Always write your code as simpler as possible
+
+## CSS Theory #2: Inheritance and the Universal Selector
+
+**Inheritance** is a mechanism by which some styles, some properties get their values inherited from parent elements to child elements
+
+-   _body_ element is the parent element of all other elements
+-   Only values about text get inherited e.g font-family,font-size, font-weight,font-style,color, line-height, letter-spacing, text-align, text-transform, text-shadow, list-style etc
+-   An inherited style is easily overridden by any rule which has a value for that same property.
+-   Universal selector (\*) selects all elements
