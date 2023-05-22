@@ -183,4 +183,4 @@ If there are multiple of the same selector (same hierarchy, same priority), then
 The Box Model explains how elements are displayed on a web page and how they are sized
 
 -   Each of the content e.g text, image etc can be seen as a rectangular box with a border, space inside and outside
-    <img src="../Resources/boxmodel.png" alt="css box model">
+    <img src="../Resources/boxmodel.png" alt="css box model" width="500px">
