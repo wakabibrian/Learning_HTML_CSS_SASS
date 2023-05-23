@@ -237,3 +237,19 @@ Best trick for centering a page.
 -   Put all of the content into a container element
 -   Give a container certain width
 -   Center the container inside of the browser (Add margins to the left and right of the container (auto))
+
+## CSS Theory #4: Types of Boxes
+
+**Block-Level Elements**
+
+-   Some boxes occupy the entire all the space they can horizontally (100% of parent element) and create line breaks after them. They cannot be side by side with one another (eg h1-6, p, body, header, footer, section, nav, aside, div etc) - block level boxes or elements.
+-   Box model applies as before
+-   With CSS:display: block
+
+**Inline-Level Elements**
+
+-   Some boxes occupy only their space, or width needed for its content (span, strong, em, img, a, button etc) - inline boxes
+-   Causes no line breaks after or before the element
+-   Box model applies in a different way: heights and width do not apply
+-   Paddings and margins are applied only horizontally (left and right)
+-   With css: display: inline
