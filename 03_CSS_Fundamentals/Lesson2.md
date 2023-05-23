@@ -218,6 +218,14 @@ Styles used;
 Global reset: \* { margin: 0; padding: 0;}
 Always use either margin bottom or margin top but do not mix. Preferably use margin-bottom
 
+Padding - for elements with background color and borders (side)
+
 ### Collapsing Margins
 
 When two margins occupy the same space, they collapse ie the highest margin will take up the space
+
+## Adding Dimensions
+
+use _width_ and _height_
+set height or width to _auto_ if the height was specified previously
+using percentage(%) is usually of the parent container (changes in responsiveness)
