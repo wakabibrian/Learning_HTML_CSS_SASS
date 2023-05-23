@@ -229,3 +229,11 @@ When two margins occupy the same space, they collapse ie the highest margin will
 use _width_ and _height_
 set height or width to _auto_ if the height was specified previously
 using percentage(%) is usually of the parent container (changes in responsiveness)
+
+## Centering our Page
+
+Best trick for centering a page.
+
+-   Put all of the content into a container element
+-   Give a container certain width
+-   Center the container inside of the browser (Add margins to the left and right of the container (auto))
