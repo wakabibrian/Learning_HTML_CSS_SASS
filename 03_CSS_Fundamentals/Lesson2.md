@@ -216,3 +216,8 @@ Styles used;
 -   margin-bottom
 
 Global reset: \* { margin: 0; padding: 0;}
+Always use either margin bottom or margin top but do not mix. Preferably use margin-bottom
+
+### Collapsing Margins
+
+When two margins occupy the same space, they collapse ie the highest margin will take up the space
