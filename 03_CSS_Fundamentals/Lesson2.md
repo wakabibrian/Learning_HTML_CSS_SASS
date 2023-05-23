@@ -253,3 +253,12 @@ Best trick for centering a page.
 -   Box model applies in a different way: heights and width do not apply
 -   Paddings and margins are applied only horizontally (left and right)
 -   With css: display: inline
+
+**The most common**
+display: inline-block
+
+-   Look like inline from the outside, behaves like block-level on the inside
+-   Occupies only content space
+-   Causes no line breaks
+-   Box model applies as showed
+-   imgs are inline block elements
