@@ -291,3 +291,12 @@ Pseudo-elements are elements that dont exist in HTML but we can still select and
 pseudo-element is written using two colons (::) e.g h1::first-letter
 ::after pseudo element is the element just after the selected element
 ::before pseudo element is the element just before the selected element
+
+## Developer Skill #1: Googling and Reading Documentation
+
+-   Do not memorize, use google (stackoverflow, css tricks and mozila mdn documentation)
+
+## Developer Skill #2: Debugging and Asking Questions
+
+Bug is an error in code
+Debbuging is fixing the error
