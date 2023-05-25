@@ -53,3 +53,5 @@ We use the _clear_ css property (value both for all left and right floats)
 
 To prevent having empty divs; use the clear fix hack
 Add a clearfix class on the element with a collapsed height and use pseudo elements clearfix::after then clear: both
+
+## box-sizing: border-box
