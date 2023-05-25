@@ -13,3 +13,35 @@ Layout gives the page a visual structure and into the structure we place the con
 1. Float Layouts (old way of building layouts) - using the float css property
 2. Flexbox (one of the modern ways of building layouts) - Its perfect for building one dimensional layouts (a layout with just a row) - Perfect for component layouts
 3. CSS Grid (one of the modern ways of building layouts) - For laying out elements in 2-dimensional grid. Perfect for page layouts and complex components
+
+## Using Floats
+
+Using css property: float (left, right or none)
+The selected element, all other elements float around it
+
+### Normal Flow
+
+-   This is the default positioning of elements on our page
+-   We can achieve this value by using css _position: relative_
+-   Element is "in flow"
+-   Elements are laid out according to their order in the HTML source code
+
+### Absolute Positioning
+
+-   This allows us to absolutely position our elements any where on the page
+-   We can achieve this value by using css _position: absolute_
+-   Element is removed from the normal flow: "out of flow"
+-   No impact on surrounding elements. It might overlap them
+-   We use top, bottom, left, right property to offset the element from its relatively positioned container
+-   The relative element must be a parent container
+-   By default, the relative container is the viewport
+
+### Floats
+
+-   Element is removed from the normal flow: "out of flow"
+-   Text and inline elements will wrap around the floated element
+-   The container will not adjust its height to the element
+
+-   css property;
+    float: left
+    float: right
