@@ -283,3 +283,11 @@ In CSS there are a couple of different positioning but the most common ones are 
 -   We use top, bottom, left, right property to offset the element from its relatively positioned container
 -   The relative element must be a parent container
 -   By default, the relative container is the viewport
+
+## Pseudo-elements
+
+Pseudo-elements are elements that dont exist in HTML but we can still select and style in CSS e.g first letter of the paragraph or first line of the paragraph.
+
+pseudo-element is written using two colons (::) e.g h1::first-letter
+::after pseudo element is the element just after the selected element
+::before pseudo element is the element just before the selected element
