@@ -294,9 +294,15 @@ pseudo-element is written using two colons (::) e.g h1::first-letter
 
 ## Developer Skill #1: Googling and Reading Documentation
 
--   Do not memorize, use google (stackoverflow, css tricks and mozila mdn documentation)
+-   Do not memorize, use google (stack overflow, css tricks and mozilla mdn documentation)
 
 ## Developer Skill #2: Debugging and Asking Questions
 
 Bug is an error in code
-Debbuging is fixing the error
+Debugging is fixing the error
+
+-   Use html validator to check issues in your code
+-   Also use a div checker to compare two source codes; html and css (original and changed)
+-   Do not write complex css selectors
+
+You can also ask on stack overflow but first put your code on code pen and share the link
