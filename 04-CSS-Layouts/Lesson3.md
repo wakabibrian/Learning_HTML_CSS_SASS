@@ -55,3 +55,6 @@ To prevent having empty divs; use the clear fix hack
 Add a clearfix class on the element with a collapsed height and use pseudo elements clearfix::after then clear: both
 
 ## box-sizing: border-box
+
+border-box changes the default model of box model, the element takes the defined width and height of the element. Instead of adding width or height, and padding
+<img src="../Resources/box-sizing.jpg" alt="box-sizing" width="500px">
