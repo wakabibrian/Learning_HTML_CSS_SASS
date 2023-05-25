@@ -41,7 +41,15 @@ The selected element, all other elements float around it
 -   Element is removed from the normal flow: "out of flow"
 -   Text and inline elements will wrap around the floated element
 -   The container will not adjust its height to the element
-
 -   css property;
     float: left
     float: right
+
+## Clearing Floats
+
+Since the height of the container element of floated item collapses, we need to clear floats
+We have to add another element at the container element and clear the floats from there
+We use the _clear_ css property (value both for all left and right floats)
+
+To prevent having empty divs; use the clear fix hack
+Add a clearfix class on the element with a collapsed height and use pseudo elements clearfix::after then clear: both
