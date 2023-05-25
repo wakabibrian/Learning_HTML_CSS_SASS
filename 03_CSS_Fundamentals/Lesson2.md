@@ -262,3 +262,24 @@ display: inline-block
 -   Causes no line breaks
 -   Box model applies as showed
 -   imgs are inline block elements
+
+## CSS Theory #5: Absolute Positioning
+
+In CSS there are a couple of different positioning but the most common ones are Normal flow and Absolute positioning
+
+### Normal Flow
+
+-   This is the default positioning of elements on our page
+-   We can achieve this value by using css _position: relative_
+-   Element is "in flow"
+-   Elements are laid out according to their order in the HTML source code
+
+### Absolute Positioning
+
+-   This allows us to absolutely position our elements any where on the page
+-   We can achieve this value by using css _position: absolute_
+-   Element is removed from the normal flow: "out of flow"
+-   No impact on surrounding elements. It might overlap them
+-   We use top, bottom, left, right property to offset the element from its relatively positioned container
+-   The relative element must be a parent container
+-   By default, the relative container is the viewport
