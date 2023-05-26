@@ -62,7 +62,7 @@ Add a clearfix class on the element with a collapsed height and use pseudo eleme
 -   The default behavior is content-box
 -   Advised to put it on all the elements(\*)
 
-## Flexbox
+## Flexbox Introduction
 
 Use a css property _display: flex_ on a container with child elements. Makes all elements side by side.
 The elements are flex items because they are the child elements of the flex container
@@ -78,3 +78,19 @@ The elements are flex items because they are the child elements of the flex cont
 
 -   Center elements horizontally - _justify-content: center_
 -   Distribute space evenly between elements - _justify-content: space-between_
+
+## A Flexbox Overview
+
+What is Flexbox? Flexbox is a set of related CSS Properties for building 1 dimensional layouts
+Helpful for aligning items one another inside a container both horizontally and vertically
+Flexbox solves common problems such as vertical centering and creating equal height columns
+Flexbox is perfect for replacing floats, allowing us to write fewer and cleaner HTML and CSS code
+
+### Flexbox Terminology
+
+<img src="../Resources/css-flex-box.png" alt="CSS Flex Box" width="400px" />
+
+Flex Container: The element on which you want to use flexbox (Set display: flex)
+Flex Items: The child elements of the flex container element
+Main Axis: The direction on which the flex items are laid out
+Cross Axis: The perpendicular axis of the main axis
