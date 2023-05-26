@@ -88,7 +88,7 @@ Flexbox is perfect for replacing floats, allowing us to write fewer and cleaner 
 
 ### Flexbox Terminology
 
-<img src="../Resources/css-flex-box.png" alt="CSS Flex Box" width="400px" />
+<img src="../Resources/css-flex-box.png" alt="CSS Flex Box" width="600px" />
 
 Flex Container: The element on which you want to use flexbox (Set display: flex)
 Flex Items: The child elements of the flex container element
