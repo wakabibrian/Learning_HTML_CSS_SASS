@@ -45,7 +45,7 @@ The selected element, all other elements float around it
     float: left
     float: right
 
-## Clearing Floats
+### Clearing Floats
 
 Since the height of the container element of floated item collapses, we need to clear floats
 We have to add another element at the container element and clear the floats from there
@@ -54,10 +54,27 @@ We use the _clear_ css property (value both for all left and right floats)
 To prevent having empty divs; use the clear fix hack
 Add a clearfix class on the element with a collapsed height and use pseudo elements clearfix::after then clear: both
 
-## box-sizing: border-box
+### box-sizing: border-box
 
 <img src="../Resources/box-sizing.jpg" alt="box-sizing" width="400px" />
 
 -   border-box changes the default model of box model, the element takes the defined width and height of the element. Instead of adding width or height, and padding
 -   The default behavior is content-box
 -   Advised to put it on all the elements(\*)
+
+## Flexbox
+
+Use a css property _display: flex_ on a container with child elements. Makes all elements side by side.
+The elements are flex items because they are the child elements of the flex container
+
+### Vertical Alignment
+
+-   Center elements vertically - _align-items: center_
+-   Put elements at very start (top) - _align-items: flex-start_
+-   Put elements at bottom - _align-items: flex-end_
+-   By default - _align-items: stretch_ (all elements stretch as tall as the tallest element)
+
+### Horizontal Alignment
+
+-   Center elements horizontally - _justify-content: center_
+-   Distribute space evenly between elements - _justify-content: space-between_
