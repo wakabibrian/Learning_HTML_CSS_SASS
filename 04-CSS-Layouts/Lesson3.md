@@ -94,3 +94,25 @@ Flex Container: The element on which you want to use flexbox (Set display: flex)
 Flex Items: The child elements of the flex container element
 Main Axis: The direction on which the flex items are laid out
 Cross Axis: The perpendicular axis of the main axis
+
+### All CSS Properties for flex box (Both for flex container and Flex Item)
+
+**Flex Container**
+
+1. gap: 0 - To create space between items, without using margins
+2. justify-content: flex-start | flex-end | center - To align items along main axis (Horizontally by default)
+3. align-items: stretch | flex-start | flex-end | center | baseline - To align items along across axis (vertically by default)
+4. flex-direction: row | row-reverse | column | column-reverse - To define which is the main axis
+5. flex-wrap: nowrap | wrap | wrap-reverse - To allow items wrap into a new line if they are too large
+6. align-content: stretch | flex-start | flex-end | center | space-between | space-around - Only applies when there are multiple lines (flex-wrap: wrap)
+
+**Flex Items**
+
+1. align-self: auto | stretch | flex-start | flex-end | center | baseline - To overwrite align-items for individual flex items
+2. flex-grow: 0 - To allow elements to grow (0 means no, 1+ means yes)
+3. flex-shrink: 1 - To allow elements to shrink (0 means no, 1+ means yes)
+4. flex-basis: auto - To define an item width, instead of width property
+5. flex: 0 1 auto - Recommended, shorthand for flex-grow, -shrink, -basis
+6. Order: 0 - Controls order of items (-1 makes the item first, 1 makes it last)
+
+-   The two properties flex-direction and flex-wrap are used so often together that the shorthand property flex-flow was created to combine them. For example, you can use flex-flow: row wrap to set rows and wrap them.
