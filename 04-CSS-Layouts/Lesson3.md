@@ -100,7 +100,7 @@ Cross Axis: The perpendicular axis of the main axis
 **Flex Container**
 
 1. gap: 0 - To create space between items, without using margins
-2. justify-content: flex-start | flex-end | center - To align items along main axis (Horizontally by default)
+2. justify-content: flex-start | flex-end | center | space-between | space-around- To align items along main axis (Horizontally by default)
 3. align-items: stretch | flex-start | flex-end | center | baseline - To align items along across axis (vertically by default)
 4. flex-direction: row | row-reverse | column | column-reverse - To define which is the main axis
 5. flex-wrap: nowrap | wrap | wrap-reverse - To allow items wrap into a new line if they are too large
