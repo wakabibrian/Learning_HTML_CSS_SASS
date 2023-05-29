@@ -109,10 +109,13 @@ Cross Axis: The perpendicular axis of the main axis
 **Flex Items**
 
 1. align-self: auto | stretch | flex-start | flex-end | center | baseline - To overwrite align-items for individual flex items
-2. flex-grow: 0 - To allow elements to grow (0 means no, 1+ means yes)
-3. flex-shrink: 1 - To allow elements to shrink (0 means no, 1+ means yes)
+2. flex-grow: 0 - To allow elements to grow (0 means no, 1+ means yes) (1 Allows the elements to grow as they can in the container, they will have the same size)
+3. flex-shrink: 1 - To allow elements to shrink (0 means no, 1+ means yes) (1 allows the content fit in the container)
 4. flex-basis: auto - To define an item width, instead of width property
 5. flex: 0 1 auto - Recommended, shorthand for flex-grow, -shrink, -basis
-6. Order: 0 - Controls order of items (-1 makes the item first, 1 makes it last)
+6. Order: 0 - Controls order of items (-1 makes the item first, 1 makes it last - specify a number greater or less than the other. By default, order is 0 for all elements)
 
 -   The two properties flex-direction and flex-wrap are used so often together that the shorthand property flex-flow was created to combine them. For example, you can use flex-flow: row wrap to set rows and wrap them.
+-   flex-grow: 1 on only one element, allows only that one element grow
+-   flex-grow: 2 on only one element, doubles the grow in comparison to other elements
+-   For flex-shrink, flex-grow and flex-basis, always use the shorthand property
