@@ -120,3 +120,14 @@ Cross Axis: The perpendicular axis of the main axis
 -   flex-grow: 2 on only one element, doubles the grow in comparison to other elements
 -   For flex-shrink, flex-grow and flex-basis, always use the shorthand property
 -   for automatic width and spacing; flex: 1
+
+## CSS Grid Introduction
+
+CSS Grid is the most modern way of building layouts & its the most complete one and the easiest
+
+-   In CSS Grid, we have Grid Container and Grid Items; similar logic to flex container and flex items
+-   We define our 2-Dimensional layout; columns and rows
+-   grid-template-columns - number of columns and size
+-   grid-template-rows - number of rows and size
+-   column-gap - space between columns
+-   row-gap - space between rows
