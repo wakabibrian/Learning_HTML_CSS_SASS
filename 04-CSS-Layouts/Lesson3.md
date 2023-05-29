@@ -167,3 +167,11 @@ Grid Track/row/column: In the picture above we have two row tracks amd three col
 
 1. grid-column: <start line> / <end line> | span <number> and grid-row: <start line> / <end line> | span <number>; To place a grid item into a specific cell, based on line numbers. span keyword can be used to span an item across more cells.
 2. justify-self: stretch | start | center | end and align-self: stretch | start | center | end; To overwrite justify-items / align-items for single items
+
+## Sizing Grid Columns and Rows
+
+using fr unit instead of px will allow us create flexible columns and flexible rows e.g grid-template-columns: 1fr 1fr 1fr 1fr; will set 4 columns at the same size.
+
+-   With auto it will only take the size necessary to fill its content.
+-   Also grid-template-columns: repeat(4, 1fr) will set 4 columns at the same size.
+-   grid-template-rows; you have to also define a height.
