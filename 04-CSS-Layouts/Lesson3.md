@@ -153,3 +153,17 @@ Grid lines: Lines which divide up the grid and separate the columns and rows. (G
 Grid Cells: Might be filled by a grid item of not.
 Gutters or Gaps: Space between items.
 Grid Track/row/column: In the picture above we have two row tracks amd three column tracks.
+
+### All CSS Properties for CSS Grid (Both for Grid container and Grid Item)
+
+**Grid Container**
+
+1. grid-template-rows: <track size> and grid-template-columns: <track size>; To establish the grid row and column tracks. One length unit for each track. Any unit can be used, new fr fills unused space.
+2. row-gap: 0 and column-gap: 0 (gap: 0); To create empty space between tracks.
+3. justify-items: stretch | start | center | end and align-items: stretch | start | center | end; To align items inside rows / columns (horizontally / vertically)
+4. justify-content: start | start | center | end | ... and align-content: start | start | center | end | ...; To align entire grid inside grid container. Only applies if container is larger than the grid.
+
+**Grid Items**
+
+1. grid-column: <start line> / <end line> | span <number> and grid-row: <start line> / <end line> | span <number>; To place a grid item into a specific cell, based on line numbers. span keyword can be used to span an item across more cells.
+2. justify-self: stretch | start | center | end and align-self: stretch | start | center | end; To overwrite justify-items / align-items for single items
