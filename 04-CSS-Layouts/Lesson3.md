@@ -119,3 +119,4 @@ Cross Axis: The perpendicular axis of the main axis
 -   flex-grow: 1 on only one element, allows only that one element grow
 -   flex-grow: 2 on only one element, doubles the grow in comparison to other elements
 -   For flex-shrink, flex-grow and flex-basis, always use the shorthand property
+-   for automatic width and spacing; flex: 1
