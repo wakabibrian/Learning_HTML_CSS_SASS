@@ -131,3 +131,25 @@ CSS Grid is the most modern way of building layouts & its the most complete one 
 -   grid-template-rows - number of rows and size
 -   column-gap - space between columns
 -   row-gap - space between rows
+
+### CSS Grid Overview
+
+-   CSS Grid is a set of CSS properties for building 2 dimensional layouts
+-   Divide a container element into rows and columns that can be filled with its child elements
+-   CSS Grid allows to write less nested HTML and and easier-to-read CSS
+-   CSS Grid is not meant to replace flexbox.Instead they work together perfectly; for 1D layout? use flexbox. For 2D layout, use CSS Grid.
+
+### CSS Grid Terminology
+
+Grid Container: Is where everything happens (display: grid)
+Grid Items: These are the child elements of the grid container.
+Row Axis and Column Axis (You can not change the direction)
+
+### More CSS Grid Terminology
+
+<img src="../Resources/css-grid.png" alt="CSS Grid" width="600px" />
+
+Grid lines: Lines which divide up the grid and separate the columns and rows. (Grid lines = no. of columns + 1 and no. of rows + 1)
+Grid Cells: Might be filled by a grid item of not.
+Gutters or Gaps: Space between items.
+Grid Track/row/column: In the picture above we have two row tracks amd three column tracks.
