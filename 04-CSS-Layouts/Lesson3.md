@@ -198,3 +198,8 @@ using fr unit instead of px will allow us create flexible columns and flexible r
 
 **For individual items**;
 align-self and justify-self
+
+**Note**
+
+-   For small components: Use flex box (one dimensional)
+-   For overall page layout: Use CSS Grid (two dimensional)
