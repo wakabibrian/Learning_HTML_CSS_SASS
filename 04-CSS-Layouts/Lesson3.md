@@ -183,3 +183,18 @@ using fr unit instead of px will allow us create flexible columns and flexible r
 -   Specify both the grid-column and grid-row, both the start and end e.g grid-column: 2/3; grid-row: 1/2;
 -   To span across cells, you can use either grid-column: 2/4; or grid-column: 2 / span 2;
 -   To span all the way to the end, you can use grid-column: 1 / -1;
+
+### Aligning Grid Items and Tracks
+
+#### Aligning Tracks inside a container
+
+1. justify-content: start | end | center | space-between | space-around- To align tracks inside the container Horizontally
+2. align-content: start | end | center | space-between | space-around - To align tracks inside the container Vertically
+
+#### Aligning items inside cells: Moving items around inside the cells
+
+1. Vertically: align-items: center | start | end; (by default, stretch)
+2. Horizontally: justify-items: center | start | end; (by default, stretch)
+
+**For individual items**;
+align-self and justify-self
