@@ -14,3 +14,8 @@
 
 -   Introduction to CSS Layouts
     More info [here](04-CSS-Layouts/Lesson3.md)
+
+## Web Design
+
+-   Introduction to Web Design
+    More info [here](05-Design/Lesson4.md)
