@@ -1,0 +1,38 @@
+# Web Design vs Development.
+
+-   Web Designers create the overall look and feel of a website
+-   Web developers implement the design using HTML, CSS and Javascript code
+
+## Good Design vs Bad Design
+
+**Good Design**
+
+-   Creates an immediate and lasting good impression of the brand or product.
+-   Makes the user trust the brand right away.
+-   Increases the user’s perceived value of the brand or product.
+-   Gives users exactly what they were looking for when coming to the site, e.g. purchasing a product or finding information.
+
+**Bad Design**
+
+-   Makes users believe the brand doesn’t really care about their product or service.
+-   Makes the user insecure about trusting the brand.
+-   Makes the brand or product seem “cheap”.
+-   Leaves users confused, and makes it hard to for them to reach their goal.
+
+**Typography**
+
+-   Use guideline in the resources folder
+-   Font weight, don't go below 400(preferably choose: 400, 500 and 700)
+-   for font-family: "Inter", sans-serif; If there is no internet connection, you wont be able to load Inter from google fonts, so you will use sans-serif.
+-   Use https://typescale.com/ for font-size system.
+
+**Colors**
+
+-   Use a tool to choose your color pallet
+-   The main color is always used on Buttons
+-   Use open color to choose the right colors according to the images
+-   Always check the contrast between background color and the text (Accessibility rule): Use Coolors tool, contrast checker.
+
+**Images**
+
+-   Images are one of the most important elements of a website
