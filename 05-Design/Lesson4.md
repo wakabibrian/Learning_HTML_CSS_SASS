@@ -35,4 +35,13 @@
 
 **Images**
 
--   Images are one of the most important elements of a website
+-   Besides Text, Images are the most important components of a website.
+-   Get free images or illustrations from unsplash
+-   Compress your images using Squoosh tool.
+
+**Icons**
+
+-   Icons can change a lot of details on the webpages
+-   The most common use of icons, is to create feature blocks.
+-   To use the icons, simply copy the svg code and paste it in your file.
+-   To define the icon color, you use the stroke/fill property
