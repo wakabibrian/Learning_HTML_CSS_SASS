@@ -58,3 +58,13 @@
 -   Choose a border radius according to the typeface.
 -   Use border radius simply to take away the hard edges on buttons, images, icons, sections etc
 -   To specify border radius; use the _border-radius_ property.
+
+**White Space**
+
+-   White space is space between elements
+-   The right amount makes the page look more clean, modern and polished.
+
+**Visual Hierarchy**
+
+-   Visual hierarchy is all about establishing which elements of the design are the most important
+-   To draw more attention to a component/section/part in a website, use a combination of position, color, shadows etc
