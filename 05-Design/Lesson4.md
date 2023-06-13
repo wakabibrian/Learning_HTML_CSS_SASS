@@ -52,3 +52,9 @@
 -   To add shadows in css always use the _box-shadow_ property.
 -   E.g box-shadow: 0 20px 30px 0 rgba(0, 0, 0, 0.07); (horizontal offset) (vertical offset) blur (scaling up the shadow) color;
 -   For text shadow: text-shadow: 0 5px 5px rgba(0, 0, 0, 0.2); Text Shadow is useful where you have text on top of an image.
+
+**Border Radius**
+
+-   Choose a border radius according to the typeface.
+-   Use border radius simply to take away the hard edges on buttons, images, icons, sections etc
+-   To specify border radius; use the _border-radius_ property.
