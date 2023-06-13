@@ -44,4 +44,11 @@
 -   Icons can change a lot of details on the webpages
 -   The most common use of icons, is to create feature blocks.
 -   To use the icons, simply copy the svg code and paste it in your file.
--   To define the icon color, you use the stroke/fill property
+-   To define the icon color, you use the _stroke/fill_ property
+
+**Shadows**
+
+-   We can use shadows to add interesting visual details
+-   To add shadows in css always use the _box-shadow_ property.
+-   E.g box-shadow: 0 20px 30px 0 rgba(0, 0, 0, 0.07); (horizontal offset) (vertical offset) blur (scaling up the shadow) color;
+-   For text shadow: text-shadow: 0 5px 5px rgba(0, 0, 0, 0.2); Text Shadow is useful where you have text on top of an image.
