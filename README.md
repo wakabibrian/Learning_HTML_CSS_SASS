@@ -19,3 +19,8 @@
 
 -   Introduction to Web Design
     More info [here](05-Design/Lesson4.md)
+
+## Omnifood Project
+
+-   Design and Development process
+    More info [here](07-Omnifood/Lesson6.md)
